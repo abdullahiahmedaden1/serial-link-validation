@@ -1,6 +1,6 @@
 {
   "description": "Behavioral simulated NRZ link: non-compliance project thresholds",
-  "generated_utc": "2026-10-29T02:36:59.704455+00:00",
+  "generated_utc": "2026-10-28T04:26:58.300480+00:00",
   "configuration": {
     "bits": 20000,
     "noise_std": 0.12,
