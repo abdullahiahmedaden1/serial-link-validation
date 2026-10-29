@@ -1,0 +1,70 @@
+{
+  "description": "Behavioral simulated NRZ link: non-compliance project thresholds",
+  "generated_utc": "2026-10-28T04:26:58.300480+00:00",
+  "configuration": {
+    "bits": 20000,
+    "noise_std": 0.12,
+    "samples_per_bit": 16,
+    "seed": 42
+  },
+  "limits": {
+    "max_center_ber": 0.01,
+    "min_center_eye_height": 0.4,
+    "min_timing_window_ui": 0.25
+  },
+  "summary": {
+    "pass": 2,
+    "fail": 2,
+    "total": 4
+  },
+  "results": [
+    {
+      "cutoff_cycles_per_bit": 0.1,
+      "bits_evaluated": 19990,
+      "center_errors": 5471,
+      "center_ber": 0.27368684342171085,
+      "center_eye_height": -0.6836590162732239,
+      "timing_window_ui": 0.0,
+      "ber_check": false,
+      "eye_height_check": false,
+      "timing_window_check": false,
+      "status": "FAIL"
+    },
+    {
+      "cutoff_cycles_per_bit": 0.2,
+      "bits_evaluated": 19990,
+      "center_errors": 1762,
+      "center_ber": 0.08814407203601801,
+      "center_eye_height": -0.10432983827175582,
+      "timing_window_ui": 0.4375,
+      "ber_check": false,
+      "eye_height_check": false,
+      "timing_window_check": true,
+      "status": "FAIL"
+    },
+    {
+      "cutoff_cycles_per_bit": 0.4,
+      "bits_evaluated": 19990,
+      "center_errors": 0,
+      "center_ber": 0.0,
+      "center_eye_height": 0.7558192307091123,
+      "timing_window_ui": 0.6875,
+      "ber_check": true,
+      "eye_height_check": true,
+      "timing_window_check": true,
+      "status": "PASS"
+    },
+    {
+      "cutoff_cycles_per_bit": 0.8,
+      "bits_evaluated": 19990,
+      "center_errors": 0,
+      "center_ber": 0.0,
+      "center_eye_height": 1.442283993249252,
+      "timing_window_ui": 0.875,
+      "ber_check": true,
+      "eye_height_check": true,
+      "timing_window_check": true,
+      "status": "PASS"
+    }
+  ]
+}

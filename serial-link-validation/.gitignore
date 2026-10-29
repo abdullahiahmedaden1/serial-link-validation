@@ -1,0 +1,14 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Example plots and reports in outputs/ are intentionally tracked.

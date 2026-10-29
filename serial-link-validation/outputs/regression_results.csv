@@ -1,0 +1,5 @@
+cutoff_cycles_per_bit,bits_evaluated,center_errors,center_ber,center_eye_height,timing_window_ui,ber_check,eye_height_check,timing_window_check,status
+0.1,19990,5471,0.27368684342171085,-0.6836590162732239,0.0,False,False,False,FAIL
+0.2,19990,1762,0.08814407203601801,-0.10432983827175582,0.4375,False,False,True,FAIL
+0.4,19990,0,0.0,0.7558192307091123,0.6875,True,True,True,PASS
+0.8,19990,0,0.0,1.442283993249252,0.875,True,True,True,PASS
